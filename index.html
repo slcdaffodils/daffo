@@ -12,6 +12,12 @@
   <meta name="theme-color" content="#4e8ef7">
     <!-- un-comment this code to enable service worker-->
   <script>
+  	var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+	if (isMobile) {
+	//alert('is mobile');
+	  //document.body.appendChild(element1);
+	  location.href="webindex.html";
+	}
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
         .then(() => console.log('service worker installed'))
@@ -47,7 +53,15 @@
   <!-- Ionic's root component and where the app will load -->
   <div id="showLoading" class="animated bounceInUp">Refreshing the settings please wait, can take 30+ second for first time!!!!!!!</div>
    <div id="app">
-           <ion-app></ion-app>
+      <preview>
+      <div class="phone" id="iphone">
+        <div class="phone-frame">
+           <div id="iphone-frame" class="phone-frame-wrap">
+                <ion-app></ion-app>
+          </div>
+        </div>
+      </div>      
+      </preview>
     </div>
    <!-- The polyfills js is generated during the build process -->
   <script src="build/polyfills.js"></script>
@@ -67,6 +81,7 @@ function downloadJSAtOnload() {
 if (isMobile) {
 //alert('is mobile');
   //document.body.appendChild(element1);
+  location.href="webindex.html";
 }
 	
      }, 10);

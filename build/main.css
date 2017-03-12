@@ -5970,6 +5970,9 @@ ion-tabs,
 
 .ion-page.show-page {
   opacity: 1;
+   position: relative;
+  width: 375px;
+  height: 667px;
 }
 
 ion-header {

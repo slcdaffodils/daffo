@@ -5970,9 +5970,6 @@ ion-tabs,
 
 .ion-page.show-page {
   opacity: 1;
-   position: relative;
-  width: 375px;
-  height: 667px;
 }
 
 ion-header {
@@ -27402,6 +27399,15 @@ button.toast-close-button {
   color: red;
 }
 
+.required:after {
+  content: " *";
+  color: pink;
+  position: absolute;
+  margin: 0px 0px 0px -20px;
+  font-size: xx-large;
+  padding: 0 5px 0 0;
+}
+
 page-about {
   background: url("../assets/images/ab.jpg") fixed center center;
 }
@@ -27862,11 +27868,11 @@ page-addoffer .login-content .submit-btn {
 }
 
 page-poll {
-  background: url("../assets/images/ab.jpg") fixed center center;
+  background: url("../assets/images/icon.png") fixed center center;
 }
 
 page-addpoll {
-  background: url("../assets/images/ab.jpg") fixed center center;
+  background: url("../assets/images/icon.png") fixed center center;
 }
 
 page-polling p {
@@ -27879,7 +27885,7 @@ page-polling .item.wrap, page-polling .item-content.wrap {
 }
 
 page-polling .content {
-  background: url("../assets/images/ab.jpg") fixed center center;
+  background: url("../assets/images/icon.png") fixed center center;
 }
 
 page-pollresult p {
@@ -27892,7 +27898,7 @@ page-pollresult .item.wrap, page-pollresult .item-content.wrap {
 }
 
 page-pollresult .content {
-  background: url("../assets/images/ab.jpg") fixed center center;
+  background: url("../assets/images/icon.png") fixed center center;
 }
 
 page-register .login-content {

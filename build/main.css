@@ -27399,6 +27399,10 @@ button.toast-close-button {
   color: red;
 }
 
+.help-block {
+  color: red;
+}
+
 .required:after {
   content: " *";
   color: pink;

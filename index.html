@@ -18,11 +18,11 @@
 	  //document.body.appendChild(element1);
 	  location.href="webindex.html";
 	}
-  /*  if ('serviceWorker' in navigator) {
+   if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
         .then(() => console.log('service worker installed'))
         .catch(err => console.log('Error', err));
-    }*/
+    }
   </script>
   <!-- cordova.js required for cordova apps >
   <script src="cordova.js"></script-->
@@ -67,7 +67,7 @@
       </preview>
     </div>
    <!-- The polyfills js is generated during the build process -->
-  <script src="build/polyfills.js"></script>
+  <script src="build/polyfills123.js"></script>
 
   <!-- The bundle js is generated during the build process -->
   <!--script src="build/main.js"></script-->
@@ -76,11 +76,11 @@
 function downloadJSAtOnload() {
   setTimeout(function(){ 
     var element = document.createElement("script");
-    element.src = "build/main.js";
+    element.src = "build/main123.js";
     document.body.appendChild(element);
 	// var element1 = document.createElement("script");
   //  element1.src = "cordova.js";
-   }, 10);
+   }, 5);
       
 }
 

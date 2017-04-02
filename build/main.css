@@ -27412,8 +27412,8 @@ button.toast-close-button {
   padding: 0 5px 0 0;
 }
 
-page-about {
-  background: url("../assets/images/ab.jpg") fixed center center;
+page-about .content {
+  background: url("../assets/images/icon.png") fixed center center;
 }
 
 page-board .header-badge {

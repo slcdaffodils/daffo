@@ -27416,6 +27416,24 @@ page-about .content {
   background: url("../assets/images/icon.png") fixed center center;
 }
 
+page-about #ppBody {
+  font-size: 11pt;
+  width: 100%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+page-about #ppHeader {
+  font-family: verdana;
+  font-size: 21pt;
+  width: 100%;
+  margin: 0 auto;
+}
+
+page-about .ppConsistencies {
+  display: none;
+}
+
 page-board .header-badge {
   top: -7px !important;
   left: -11px !important;
@@ -27461,6 +27479,18 @@ page-board .card-background-page .card-subtitle {
 page-board .card-background-page .hero__background {
   -webkit-filter: blur(5px);
   -webkit-transform: translate3d(0, 0, 0);
+}
+
+page-board .card-background-page .slide-image {
+  max-height: 90%;
+  max-width: 100%;
+  margin: 5px 0;
+  width: 100%;
+  height: 50%;
+  align: "middle";
+  opacity: 1;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */
 }
 
 .tutorial-page {
@@ -27509,6 +27539,13 @@ page-board .card-background-page .hero__background {
 
 .tutorial-page p b {
   color: #000020;
+}
+
+page-events img {
+  max-width: 50%;
+  height: 50%;
+  border-radius: 8px;
+  margin: auto;
 }
 
 page-addevent .login-content {
@@ -27819,6 +27856,14 @@ page-notices img {
   height: 50%;
   border-radius: 8px;
   margin: auto;
+}
+
+page-notices .slide-image {
+  max-height: 90%;
+  max-width: 90%;
+  margin: 5px 0;
+  width: 100%;
+  height: 50%;
 }
 
 page-offers img {

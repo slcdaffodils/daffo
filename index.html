@@ -12,7 +12,7 @@
   <meta name="theme-color" content="#4e8ef7">
     <!-- un-comment this code to enable service worker-->
   <script>
-  	var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  	var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Windows Phone/i.test(navigator.userAgent);
 	if (isMobile) {
 	//alert('is mobile');
 	  //document.body.appendChild(element1);
@@ -67,7 +67,7 @@
       </preview>
     </div>
    <!-- The polyfills js is generated during the build process -->
-  <script src="build/yogifills4321.js"></script>
+  <script src="build/yogifills250417.js"></script>
 
   <!-- The bundle js is generated during the build process -->
   <!--script src="build/main.js"></script-->
@@ -76,7 +76,7 @@
 function downloadJSAtOnload() {
   setTimeout(function(){ 
     var element = document.createElement("script");
-    element.src = "build/yogi43211.js";
+    element.src = "build/yogi250417.js";
     document.body.appendChild(element);
 	// var element1 = document.createElement("script");
   //  element1.src = "cordova.js";

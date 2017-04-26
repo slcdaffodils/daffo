@@ -70,7 +70,14 @@ function downloadJSAtOnload() {
      }, 1);
       
 }
-
+function checkSize(){
+  	var width = window.innerWidth;
+	if (width > 600) {
+	//alert('is mobile');
+	  //document.body.appendChild(element1);
+	  location.href="index.html";
+	}
+}
 if (window.addEventListener){
   window.addEventListener("load", downloadJSAtOnload, false);
 }else if (window.attachEvent){
@@ -78,7 +85,7 @@ if (window.addEventListener){
 }else{
    window.onload = downloadJSAtOnload;
    }
-
+window.onresize=checkSize;
 </script>
 </body>
 </html>

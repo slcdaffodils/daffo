@@ -12,21 +12,29 @@
   <meta name="theme-color" content="#4e8ef7">
     <!-- un-comment this code to enable service worker-->
   <script>
-  	var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Windows Phone/i.test(navigator.userAgent);
-	var width = window.innerWidth;
-	alert(width);
-	alert('check');
-	alert(isMobile || width <600);
-	if (isMobile || width < 600) {
+  function checkSize(){
+alert('yeah');
+  	var width = window.innerWidth;
+	if (width < 600) {
 	//alert('is mobile');
 	  //document.body.appendChild(element1);
 	  location.href="webindex.html";
+	}
+}
+  	var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Windows Phone/i.test(navigator.userAgent);
+	
+	if (isMobile) {
+	//alert('is mobile');
+	  //document.body.appendChild(element1);
+	  checkSize();
 	}
    if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
         .then(() => console.log('service worker installed'))
         .catch(err => console.log('Error', err));
     }
+	
+window.onresize=checkSize;
   </script>
   <!-- cordova.js required for cordova apps >
   <script src="cordova.js"></script-->

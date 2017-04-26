@@ -13,8 +13,9 @@
     <!-- un-comment this code to enable service worker-->
   <script>
   	var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Windows Phone/i.test(navigator.userAgent);
-	alert(isMobile);
-	if (isMobile) {
+	var width = window.width
+	alert(isMobile || width <400);
+	if (isMobile || width < 400) {
 	//alert('is mobile');
 	  //document.body.appendChild(element1);
 	  location.href="webindex.html";

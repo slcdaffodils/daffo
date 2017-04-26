@@ -13,7 +13,7 @@
     <!-- un-comment this code to enable service worker-->
   <script>
   	var isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Windows Phone/i.test(navigator.userAgent);
-	var width = window.width;
+	var width = window.innerWidth;
 	alert(width);
 	alert(isMobile || width <400);
 	if (isMobile || width < 400) {

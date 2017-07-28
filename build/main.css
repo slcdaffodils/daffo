@@ -27434,49 +27434,9 @@ page-about .ppConsistencies {
   display: none;
 }
 
-page-about .icons {
-  background-color: #fff;
-  border: 1px solid #7f8c8d;
-  color: #7f8c8d;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-page-about .name {
-  margin: 0;
-}
-
-page-about .handle {
-  margin: 0;
-}
-
-page-about .status {
-  white-space: normal;
-  color: #000;
-  margin-top: 5px;
-}
-
-page-about .item {
-  -webkit-align-items: baseline;
-  -ms-flex-align: baseline;
-  align-items: baseline;
-}
-
-page-about .button-container {
-  -webkit-align-self: flex-end;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
-  text-align: right;
-}
-
 page-board .header-badge {
   top: -7px !important;
   left: -11px !important;
-}
-
-page-board .iframe-wrapper iframe {
-  width: 100%;
-  height: 100%;
 }
 
 page-board img {
@@ -27956,44 +27916,6 @@ page-addoffer .login-content .submit-btn {
   border: 1px solid #ffffff;
 }
 
-page-photo-select .picture input[type="file"] {
-  cursor: pointer;
-  display: block;
-  height: 100%;
-  left: 0;
-  opacity: 0 !important;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-page-photo-select .picture-src {
-  width: 100%;
-}
-
-page-photo-select .picture-container {
-  position: relative;
-  cursor: pointer;
-  text-align: center;
-}
-
-page-photo-select .picture:hover {
-  border-color: #2ca8ff;
-}
-
-page-photo-select .picture {
-  width: 206px;
-  height: 206px;
-  background-color: #999999;
-  border: 4px solid #CCCCCC;
-  color: #FFFFFF;
-  border-radius: 50%;
-  margin: 5px auto;
-  overflow: hidden;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-}
-
 page-poll {
   background: url("../assets/images/icon.png") fixed center center;
 }
@@ -28075,24 +27997,24 @@ page-settingmsg ion-icon {
   font-size: 40px !important;
 }
 
-page-signup .login-content1 {
+page-signup .login-content {
   background: #56CA96;
 }
 
-page-signup .login-content1 .login-box {
+page-signup .login-content .login-box {
   background: #509287;
   padding: 20px 20px 0px 20px;
   margin-top: 30px;
 }
 
-page-signup .login-content1 ion-row {
+page-signup .login-content ion-row {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
 }
 
-page-signup .login-content1 ion-item {
+page-signup .login-content ion-item {
   border-radius: 30px !important;
   padding-left: 30px !important;
   font-size: 0.9em;
@@ -28102,7 +28024,7 @@ page-signup .login-content1 ion-item {
   box-shadow: none !important;
 }
 
-page-signup .login-content1 ion-list-header {
+page-signup .login-content ion-list-header {
   border-radius: 30px !important;
   padding-left: 30px !important;
   font-size: 0.9em;
@@ -28112,17 +28034,17 @@ page-signup .login-content1 ion-list-header {
   box-shadow: none !important;
 }
 
-page-signup .login-content1 .signup-col {
+page-signup .login-content .signup-col {
   margin: 0px 16px 0px 16px;
   padding-bottom: 20px;
 }
 
-page-signup .login-content1 .item-inner {
+page-signup .login-content .item-inner {
   border-bottom-color: #ffffff !important;
   box-shadow: none !important;
 }
 
-page-signup .login-content1 .submit-btn {
+page-signup .login-content .submit-btn {
   background: #51CFB1;
   border-radius: 30px !important;
   border: 1px solid #ffffff;

@@ -27974,7 +27974,7 @@ page-addoffer .login-content .submit-btn {
 
 .picture input[type="file"] {
   cursor: pointer;
-  display: block;
+  display: inline-block;
   height: 100%;
   left: 0;
   opacity: 0 !important;
@@ -27993,13 +27993,28 @@ page-addoffer .login-content .submit-btn {
   text-align: center;
 }
 
+.mycamera {
+  width: 106px;
+  height: 106px;
+  background-image: url("../assets/camera.png");
+  background-position: center;
+  background-color: #999999;
+  border: 4px solid #CCCCCC;
+  color: #FFFFFF;
+  border-radius: 50%;
+  margin: 1px auto;
+  overflow: hidden;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
 .picture:hover {
   border-color: #2ca8ff;
 }
 
 .picture {
-  width: 206px;
-  height: 206px;
+  width: 106px;
+  height: 106px;
   background-color: #999999;
   border: 4px solid #CCCCCC;
   color: #FFFFFF;

@@ -14,13 +14,13 @@ self.toolbox.options.cache = {
 // pre-cache our key assets
 self.toolbox.precache(
   [
-    './build/yogi0608172.js',
+    './build/yogi0608173.js',
     './build/main.css',
      './assets/animate.css',
      './assets/ng2-toastr.min.css',
       './assets/Chart.js',
       './assets/aag.gif',
-    './build/yogifills0608172.js',
+    './build/yogifills0608173.js',
     'cordova.js',
     'cordova_plugins.js',
     'index.html',

@@ -130,7 +130,7 @@ body {
 #logo img {
   max-width: 100%;
 }
-.phone {
+.phone1 {
   display: inline-block;
   margin: 20px 20px 0 20px;
   vertical-align: middle;
@@ -152,7 +152,7 @@ body {
 .frame {
   border: none;
 }
-.phone-frame-wrap {
+.phone-frame-wrap1 {
  position: relative;
   width: 375px;
   height: 667px;

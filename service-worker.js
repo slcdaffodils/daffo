@@ -15,7 +15,7 @@ self.toolbox.options.cache = {
 self.toolbox.precache(
   [
     './build/yogi30082017.js',
-    './build/main28082017.css',
+    './build/mainx.css',
      './assets/animate.css',
      './assets/ng2-toastr.min.css',
       './assets/Chart.js',

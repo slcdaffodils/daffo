@@ -5933,6 +5933,10 @@ ion-tabs,
   display: block;
   width: 100%;
   height: 100%;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ion-nav,

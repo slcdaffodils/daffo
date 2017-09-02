@@ -5927,8 +5927,8 @@ ion-tab,
 ion-tabs,
 .app-root {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   z-index: 0;
   display: block;
   width: 100%;

@@ -239,7 +239,7 @@ body {
 
 preview {
   flex: 1;
-  width: 100%;
+  width: 800px;
   display: block;
   vertical-align: middle;
   overflow: auto;

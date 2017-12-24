@@ -41,7 +41,7 @@ window.onresize=checkSize;
   <script src="cordova.js"></script-->
   <script src="assets/Chart.js"></script>
   <link href="assets/animate.css" rel="stylesheet">
-  <link href="build/main28082017.css" rel="stylesheet">
+  <link href="build/main24122017.css" rel="stylesheet">
   <style type="text/css">
     html {
   background: url('assets/aag.gif')  no-repeat center center fixed; 
@@ -54,17 +54,25 @@ window.onresize=checkSize;
 #showLoading
 {
     position:fixed;
-    left: 200px;
-    top: 20%;
+    left: 50%;
+    top: 50%;
     font-family: times, Times New Roman, times-roman, georgia, serif;
     font-size: 15px;
     margin-left: -150px;
     margin-top: -50px;
     border: solid 1px black;
 }
+.myappt{
+  max-width:600px;
+  margin:auto;
+   top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
   </style>
 </head>
-<body style="background: url('assets/aag.gif')  no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;  -o-background-size: cover;  background-size: cover;"> 
+<body class="myappt" style="background: url('assets/aag.gif')  no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;  -o-background-size: cover;  background-size: cover;"> 
 
   <!-- Ionic's root component and where the app will load -->
   <div id="showLoading" class="animated bounceInUp">Refreshing the settings please wait, <br/>can take 30+ second for first time!!!!!!!</div>
@@ -80,7 +88,7 @@ window.onresize=checkSize;
       </preview>
     </div>
    <!-- The polyfills js is generated during the build process -->
-  <script src="build/yogifills30082017.js"></script>
+  <script src="build/yogifills24122017.js"></script>
 
   <!-- The bundle js is generated during the build process -->
   <!--script src="build/main.js"></script-->
@@ -89,7 +97,7 @@ window.onresize=checkSize;
 function downloadJSAtOnload() {
   setTimeout(function(){ 
     var element = document.createElement("script");
-    element.src = "build/yogi30082017.js";
+    element.src = "build/yogi24122017.js";
     document.body.appendChild(element);
 	// var element1 = document.createElement("script");
   //  element1.src = "cordova.js";

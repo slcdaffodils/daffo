@@ -1,2 +1,13 @@
 
 C:\onhero\ongittest>git add . 
+
+C:\onhero\ongittest>git commit -m  9:06:48.30 
+[master ff2bfb7] 9:06:48.30
+ 3 files changed, 6 insertions(+)
+ create mode 100644 commit.bat
+ create mode 100644 commitlog.txt
+ create mode 100644 run-commit.bat
+
+C:\onhero\ongittest>git push origing master 
+
+C:\onhero\ongittest>git add . 

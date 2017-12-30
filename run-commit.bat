@@ -1,0 +1,1 @@
+CALL .\commit.bat >> commitlog.txt

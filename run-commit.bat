@@ -1,1 +1,1 @@
-CALL .\commit.bat >> commitlog.txt
+CALL .\commit.bat >> c:\apk\commitlog.txt
